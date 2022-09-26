@@ -25,6 +25,10 @@ public class Main extends Base{
         removeFirstItemFromCart();
 
         incrementQuantity();
+        Thread.sleep(15000);
+        closeDriver();
+
+
 
 
 

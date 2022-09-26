@@ -64,6 +64,10 @@ public class Base {
         addBtn.click();
     }
 
+    public static void closeDriver(){
+        driver.close();
+    }
+
 
 
 
